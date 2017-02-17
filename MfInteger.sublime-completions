@@ -1,0 +1,22 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfInteger()", "contents": "MfInteger(${1:[val]})" },
+        { "trigger": "MfInteger(val, returnAsObj, readonly)", "contents": "MfInteger(${1:[val}, ${2:returnAsObj=false}, ${3:readonly=false]})" },
+        { "trigger": "MfInteger.MinValue", "contents": "MfInteger.MinValue" },
+        { "trigger": "MfInteger.MaxValue", "contents": "MfInteger.MaxValue" },
+        { "trigger": "MfInteger.GetValue()", "contents": "MfInteger.GetValue(${1:obj[}, ${2:default}, ${3:AllowAny=false]})" },
+
+        { "trigger": "MfInt32()", "contents": "MfInt32(${1:[val]})" },
+        { "trigger": "MfInt32(val, returnAsObj, readonly)", "contents": "MfInt32(${1:[val}, ${2:returnAsObj=false}, ${3:readonly=false]})" },
+        { "trigger": "MfInt32.MinValue", "contents": "MfInt32.MinValue" },
+        { "trigger": "MfInt32.MaxValue", "contents": "MfInt32.MaxValue" },
+        { "trigger": "MfInt32.GetValue()", "contents": "MfInt32.GetValue(${1:obj[}, ${2:default}, ${3:AllowAny=false]})" },
+
+        { "trigger": "MfInt()", "contents": "MfInt(${1:[val]})" },
+        { "trigger": "MfInt(val, returnAsObj, readonly)", "contents": "MfInt(${1:[val}, ${2:returnAsObj=false}, ${3:readonly=false]})" },
+        { "trigger": "MfInt.MinValue", "contents": "MfInt.MinValue" },
+        { "trigger": "MfInt.MaxValue", "contents": "MfInt.MaxValue" },
+        { "trigger": "MfInt.GetValue()", "contents": "MfInt.GetValue(${1:obj[}, ${2:default}, ${3:AllowAny=false]})" }
+]           
+}

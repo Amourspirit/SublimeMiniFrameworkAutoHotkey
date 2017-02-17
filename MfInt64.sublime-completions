@@ -1,0 +1,10 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfInt64()", "contents": "MfInt64(${1:[val]})" },
+        { "trigger": "MfInt64(val, returnAsObj, readonly)", "contents": "MfInt64(${1:[val}, ${2:returnAsObj=false}, ${3:readonly=false]})" },
+        { "trigger": "MfInt64.MinValue", "contents": "MfInt64.MinValue" },
+        { "trigger": "MfInt64.MaxValue", "contents": "MfInt64.MaxValue" },
+        { "trigger": "MfInt64.GetValue()", "contents": "MfInt64.GetValue(${1:obj[}, ${2:default}, ${3:AllowAny=false]})" }
+]           
+}

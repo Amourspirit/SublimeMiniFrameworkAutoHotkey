@@ -1,0 +1,6 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfDictionaryEntry()", "contents": "MfDictionaryEntry(${1:key}, ${2:value})" }
+	]           
+}

@@ -1,0 +1,14 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfBool()", "contents": "MfBool(${1:[val]})" },
+        { "trigger": "MfBool(val, returnAsObj, readonly)", "contents": "MfBool(${1:[val}, ${2:returnAsObj}, ${3:readonly]})" },
+        { "trigger": "MfBool.False", "contents": "MfBool.False" },
+        { "trigger": "MfBool.FalseObj", "contents": "MfBool.FalseObj" },
+        { "trigger": "MfBool.FalseString", "contents": "MfBool.FalseString" },
+        { "trigger": "MfBool.True", "contents": "MfBool.True" },
+        { "trigger": "MfBool.TrueObj", "contents": "MfBool.TrueObj" },
+        { "trigger": "MfBool.TrueString", "contents": "MfBool.TrueString" },
+        { "trigger": "MfBool.GetValue()", "contents": "MfBool.GetValue(${1:obj[}, ${2:default]})" }
+]           
+}

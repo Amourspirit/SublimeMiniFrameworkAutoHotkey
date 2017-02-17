@@ -1,0 +1,10 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfByte()", "contents": "MfByte(${1:[val]})" },
+        { "trigger": "MfByte(val, returnAsObj, readonly)", "contents": "MfByte(${1:[val}, ${2:returnAsObj}, ${3:readonly]})" },
+        { "trigger": "MfByte.MinValue", "contents": "MfByte.MinValue" },
+        { "trigger": "MfByte.MaxValue", "contents": "MfByte.MaxValue" },
+        { "trigger": "MfByte.GetValue()", "contents": "MfByte.GetValue(${1:obj[}, ${2:default]})" }
+]           
+}

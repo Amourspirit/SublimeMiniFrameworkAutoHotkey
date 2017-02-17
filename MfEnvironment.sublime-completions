@@ -1,0 +1,29 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+		{ "trigger": "NewLine", "contents": "MfEnvironment.Instance.NewLine" },
+		{ "trigger": "ResourceFolder", "contents": "MfEnvironment.Instance.ResourceFolder" },
+		{ "trigger": "TickCount", "contents": "MfEnvironment.Instance.TickCount" },
+		{ "trigger": "CommonAppData", "contents": "MfEnvironment.Instance.CommonAppData" },
+		{ "trigger": "CommonDesktop", "contents": "MfEnvironment.Instance.CommonDesktop" },
+		{ "trigger": "CommonMusic", "contents": "MfEnvironment.Instance.CommonMusic" },
+		{ "trigger": "CommonPictures", "contents": "MfEnvironment.Instance.CommonPictures" },
+		{ "trigger": "CommonStartMenu", "contents": "MfEnvironment.Instance.CommonStartMenu" },
+		{ "trigger": "CommonStartup", "contents": "MfEnvironment.Instance.CommonStartup" },
+		{ "trigger": "CommonVideo", "contents": "MfEnvironment.Instance.CommonVideo" },
+		{ "trigger": "UserAppDataLocal", "contents": "MfEnvironment.Instance.UserAppDataLocal" },
+		{ "trigger": "UserAppDataRoaming", "contents": "MfEnvironment.Instance.UserAppDataRoaming" },
+		{ "trigger": "UserDesktop", "contents": "MfEnvironment.Instance.UserDesktop" },
+		{ "trigger": "UserDocuments", "contents": "MfEnvironment.Instance.UserDocuments" },
+		{ "trigger": "UserFavorites", "contents": "MfEnvironment.Instance.UserFavorites" },
+		{ "trigger": "UserMusic", "contents": "MfEnvironment.Instance.UserMusic" },
+		{ "trigger": "UserPictures", "contents": "MfEnvironment.Instance.UserPictures" },
+		{ "trigger": "UserStartMenu", "contents": "MfEnvironment.Instance.UserStartMenu" },
+		{ "trigger": "UserStartup", "contents": "MfEnvironment.Instance.NewLine" },
+		{ "trigger": "UserVideo", "contents": "MfEnvironment.Instance.UserVideo" },
+		{ "trigger": "MfEnvironment.Instance.GetResourceString()", "contents": "MfEnvironment.Instance.GetResourceString(${1:key[}, ${2:args]})" },
+		{ "trigger": "GetResourceString()", "contents": "MfEnvironment.Instance.GetResourceString(${1:key[}, ${2:args]})" },
+		{ "trigger": "GetResourceStringBySection()", "contents": "MfEnvironment.Instance.GetResourceStringBySection(${1:key}, ${2:section[}, ${3:args]})" },
+		{ "trigger": "MfEnvironment.Instance.GetResourceStringBySection()", "contents": "MfEnvironment.Instance.GetResourceStringBySection(${1:key}, ${2:section[}, ${3:args]})" }
+]           
+}

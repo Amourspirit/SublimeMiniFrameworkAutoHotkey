@@ -1,0 +1,8 @@
+{
+	"scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfEqualsOptions.None", "contents": "MfEqualsOptions.Instance.None" },
+		{ "trigger": "MfEqualsOptions.CompareNumber", "contents": "MfEqualsOptions.Instance.CompareNumber" }
+
+]
+}

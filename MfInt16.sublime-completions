@@ -1,0 +1,10 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfInt16()", "contents": "MfInt16(${1:[val]})" },
+        { "trigger": "MfInt16(val, returnAsObj, readonly)", "contents": "MfInt16(${1:[val}, ${2:returnAsObj=false}, ${3:readonly=false]})" },
+        { "trigger": "MfInt16.MinValue", "contents": "MfInt16.MinValue" },
+        { "trigger": "MfInt16.MaxValue", "contents": "MfInt16.MaxValue" },
+        { "trigger": "MfInt16.GetValue()", "contents": "MfInt16.GetValue(${1:obj[}, ${2:default}, ${3:AllowAny=false]})" }
+]           
+}

@@ -1,0 +1,316 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "Mfunc.ControlGet()", "contents": "Mfunc.ControlGet(${1:Cmd}[, ${2:Value}, ${3:Control}, ${4:WinTitle}, ${5:WinText}, ${6:ExcludeTitle}, ${7:ExcludeText})" },
+        { "trigger": ".ControlGet()", "contents": "ControlGet(${1:Cmd}[, ${2:Value}, ${3:Control}, ${4:WinTitle}, ${5:WinText}, ${6:ExcludeTitle}, ${7:ExcludeText})" },
+        { "trigger": "ControlGet()", "contents": "Mfunc.ControlGet(${1:Cmd}[, ${2:Value}, ${3:Control}, ${4:WinTitle}, ${5:WinText}, ${6:ExcludeTitle}, ${7:ExcludeText})" },
+
+        { "trigger": "Mfunc.ControlGetFocus()", "contents": "Mfunc.ControlGetFocus(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+        { "trigger": ".ControlGetFocus()", "contents": "ControlGetFocus(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+        { "trigger": "ControlGetFocus()", "contents": "Mfunc.ControlGetFocus(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+
+        { "trigger": "Mfunc.ControlGetText()", "contents": "Mfunc.ControlGetText(${1:[Control}, ${2:WinTitle}, ${3:WinText}, ${4:ExcludeTitle}, ${5:ExcludeText]})" },
+        { "trigger": ".ControlGetText()", "contents": "ControlGetText(${1:[Control}, ${2:WinTitle}, ${3:WinText}, ${4:ExcludeTitle}, ${5:ExcludeText]})" },
+        { "trigger": "ControlGetText()", "contents": "Mfunc.ControlGetText(${1:[Control}, ${2:WinTitle}, ${3:WinText}, ${4:ExcludeTitle}, ${5:ExcludeText]})" },
+
+        { "trigger": "Mfunc.DriveGet()", "contents": "Mfunc.DriveGet(${1:Cmd}[, ${2:Value})" },
+        { "trigger": ".DriveGet()", "contents": "DriveGet(${1:Cmd}[, ${2:Value})" },
+        { "trigger": "DriveGet()", "contents": "Mfunc.DriveGet(${1:Cmd}[, ${2:Value})" },
+
+        { "trigger": "Mfunc.DriveSpaceFree()", "contents": "Mfunc.DriveSpaceFree(${1:path})" },
+        { "trigger": ".DriveSpaceFree()", "contents": "DriveSpaceFree(${1:path}" },
+        { "trigger": "DriveSpaceFree()", "contents": "Mfunc.DriveSpaceFree(${1:path})" },
+
+        { "trigger": "Mfunc.EnvGet()", "contents": "Mfunc.EnvGet(${1:EnvVarName})" },
+        { "trigger": ".EnvGet()", "contents": "EnvGet(${1:EnvVarName})" },
+        { "trigger": "EnvGet()", "contents": "Mfunc.EnvGet(${1:EnvVarName})" },
+
+        { "trigger": "Mfunc.FileAppend()", "contents": "Mfunc.FileAppend(${1:[Text}, ${2:Filename}, ${3:Encoding]})" },
+        { "trigger": ".FileAppend()", "contents": "FileAppend(${1:[Text}, ${2:Filename}, ${3:Encoding]})" },
+        { "trigger": "FileAppend()", "contents": "Mfunc.FileAppend(${1:[Text}, ${2:Filename}, ${3:Encoding]})" },
+
+        { "trigger": "Mfunc.FileCopy()", "contents": "Mfunc.FileCopy(${1:SourcePattern}, ${2:DestPattern}${3:[, Flag]})" },
+        { "trigger": ".FileCopy()", "contents": "FileCopy(${1:SourcePattern}, ${2:DestPattern}${3:[, Flag]})" },
+        { "trigger": "FileCopy()", "contents": "Mfunc.FileCopy(${1:SourcePattern}, ${2:DestPattern}${3:[, Flag]})" },
+
+        { "trigger": "Mfunc.FileCopyDir()", "contents": "Mfunc.FileCopyDir(${1:SourcePattern}, ${2:DestPattern}${3:[, Flag]})" },
+        { "trigger": ".FileCopyDir()", "contents": "FileCopyDir(${1:SourcePattern}, ${2:DestPattern}${3:[, Flag]})" },
+        { "trigger": "FileCopyDir()", "contents": "Mfunc.FileCopyDir(${1:SourcePattern}, ${2:DestPattern}${3:[, Flag]})" },
+
+        { "trigger": "Mfunc.FileCreateDir()", "contents": "Mfunc.FileCreateDir(${1:DirName})" },
+        { "trigger": ".FileCreateDir()", "contents": "FileCreateDir(${1:DirName})" },
+        { "trigger": "FileCreateDir()", "contents": "Mfunc.FileCreateDir(${1:DirName})" },
+
+        { "trigger": "Mfunc.FileDelete()", "contents": "Mfunc.FileDelete(${1:FilePattern})" },
+        { "trigger": ".FileDelete()", "contents": ".FileDelete(${1:FilePattern})" },
+        { "trigger": "FileDelete()", "contents": "Mfunc.FileDelete(${1:FilePattern})" },
+
+        { "trigger": "Mfunc.FileGetAttrib()", "contents": "Mfunc.FileGetAttrib(${1:[Filename]})" },
+        { "trigger": ".FileGetAttrib()", "contents": "FileGetAttrib(${1:[Filename]})" },
+        { "trigger": "FileGetAttrib()", "contents": "Mfunc.FileGetAttrib(${1:[Filename]})" },
+
+        { "trigger": "Mfunc.FileGetShortcut()", "contents": "Mfunc.FileGetShortcut(${1:LinkFile }[, ${2:OutTarget}, ${3:OutDir}, ${4:OutArgs}, ${5:OutDescription}, ${6:OutIcon}, ${7:OutIconNum}, ${8:OutRunState})" },
+        { "trigger": ".FileGetShortcut()", "contents": "FileGetShortcut(${1:LinkFile }[, ${2:OutTarget}, ${3:OutDir}, ${4:OutArgs}, ${5:OutDescription}, ${6:OutIcon}, ${7:OutIconNum}, ${8:OutRunState})" },
+        { "trigger": "FileGetShortcut()", "contents": "Mfunc.FileGetShortcut(${1:LinkFile }[, ${2:OutTarget}, ${3:OutDir}, ${4:OutArgs}, ${5:OutDescription}, ${6:OutIcon}, ${7:OutIconNum}, ${8:OutRunState})" },
+
+        { "trigger": "Mfunc.FileGetSize()", "contents": "Mfunc.FileGetSize(${1:[Filename}, ${2:Units]})" },
+        { "trigger": ".FileGetSize()", "contents": "FileGetSize(${1:[Filename}, ${2:Units]})" },
+        { "trigger": "FileGetSize()", "contents": "Mfunc.FileGetSize(${1:[Filename}, ${2:Units]})" },
+
+        { "trigger": "Mfunc.FileGetVersion()", "contents": "Mfunc.FileGetVersion(${1:[Filename]})" },
+        { "trigger": ".FileGetVersion()", "contents": "FileGetVersion(${1:[Filename]})" },
+        { "trigger": "FileGetVersion()", "contents": "Mfunc.FileGetVersion(${1:[Filename]})" },
+
+        { "trigger": "Mfunc.FileGetTime()", "contents": "Mfunc.FileGetTime(${1:[Filename}, ${2:WhichTime]})" },
+        { "trigger": ".FileGetTime()", "contents": "FileGetTime(${1:[Filename}, ${2:WhichTime]})" },
+        { "trigger": "FileGetTime()", "contents": "Mfunc.FileGetTime(${1:[Filename}, ${2:WhichTime]})" },
+
+        { "trigger": "Mfunc.FileMove()", "contents": "Mfunc.FileMove(${1:DestPattern}${2[, Flag]})" },
+        { "trigger": ".FileMove()", "contents": "FileMove(${1:DestPattern}${2[, Flag]})" },
+        { "trigger": "FileMove()", "contents": "Mfunc.FileMove(${1:DestPattern}${2[, Flag]})" },
+
+        { "trigger": "Mfunc.FileMoveDir()", "contents": "Mfunc.FileMoveDir(${1:Source}, ${2:Dest}${3:[, Flag]})" },
+        { "trigger": ".FileMoveDir()", "contents": "FileMoveDir(${1:Source}, ${2:Dest}${3:[, Flag]})" },
+        { "trigger": "FileMoveDir()", "contents": "Mfunc.FileMoveDir(${1:Source}, ${2:Dest}${3:[, Flag]})" },
+
+        { "trigger": "Mfunc.FileRead()", "contents": "Mfunc.FileRead(${1:Filename})" },
+        { "trigger": ".FileRead()", "contents": "FileRead(${1:Filename})" },
+        { "trigger": "FileRead()", "contents": "Mfunc.FileRead(${1:Filename})" },
+
+        { "trigger": "Mfunc.FileReadLine()", "contents": "Mfunc.FileReadLine(${1:Filename}, ${2:LineNum})" },
+        { "trigger": ".FileReadLine()", "contents": "FileReadLine(${1:Filename}, ${2:LineNum})" },
+        { "trigger": "FileReadLine()", "contents": "Mfunc.FileReadLine(${1:Filename}, ${2:LineNum})" },
+
+        { "trigger": "Mfunc.FileRemoveDir()", "contents": "Mfunc.FileRemoveDir(${1:DirName }${2:[, Recurse?]})" },
+        { "trigger": ".FileRemoveDir()", "contents": "FileRemoveDir(${1:DirName }${2:[, Recurse?]})" },
+        { "trigger": "FileRemoveDir()", "contents": "Mfunc.FileRemoveDir(${1:DirName }${2:[, Recurse?]})" },
+
+        { "trigger": "Mfunc.FileSelectFile()", "contents": "Mfunc.FileSelectFile(${1:[Options}, ${2:RootDir\\Filename}, ${3:Prompt}, ${4:Filter]})" },
+        { "trigger": ".FileSelectFile()", "contents": "Mfunc.FileSelectFile(${1:[Options}, ${2:RootDir\\Filename}, ${3:Prompt}, ${4:Filter]})" },
+        { "trigger": "FileSelectFile()", "contents": "Mfunc.FileSelectFile(${1:[Options}, ${2:RootDir\\Filename}, ${3:Prompt}, ${4:Filter]})" },
+
+        { "trigger": "Mfunc.FileSelectFolder()", "contents": "Mfunc.FileSelectFolder(${1:[StartingFolder}, ${2:Options}, ${3:Prompt]})" },
+        { "trigger": ".FileSelectFolder()", "contents": "FileSelectFolder(${1:[StartingFolder}, ${2:Options}, ${3:Prompt]})" },
+        { "trigger": "FileSelectFolder()", "contents": "Mfunc.FileSelectFolder(${1:[StartingFolder}, ${2:Options}, ${3:Prompt]})" },
+
+        { "trigger": "Mfunc.FileSetAttrib()", "contents": "Mfunc.FileSetAttrib(${1:Attributes}, ${2:[, FilePattern}, ${3:OperateOnFolders?}, ${4:Recurse?]})" },
+        { "trigger": ".FileSetAttrib()", "contents": "FileSetAttrib(${1:Attributes}, ${2:[, FilePattern}, ${3:OperateOnFolders?}, ${4:Recurse?]})" },
+        { "trigger": "FileSetAttrib()", "contents": "Mfunc.FileSetAttrib(${1:Attributes}, ${2:[, FilePattern}, ${3:OperateOnFolders?}, ${4:Recurse?]})" },
+
+        { "trigger": "Mfunc.FormatTime()", "contents": "Mfunc.FormatTime(${1:[YYYYMMDDHH24MISS}, ${2:Format]})" },
+        { "trigger": ".FormatTime()", "contents": "FormatTime(${1:[YYYYMMDDHH24MISS}, ${2:Format]})" },
+        { "trigger": "FormatTime()", "contents": "Mfunc.FormatTime(${1:[YYYYMMDDHH24MISS}, ${2:Format]})" },
+
+        { "trigger": "Mfunc.GuiControlGet()", "contents": "Mfunc.GuiControlGet(${1:[Sub-command}, ${2:ControlID}, ${3:Param4]})" },
+        { "trigger": ".GuiControlGet()", "contents": "GuiControlGet(${1:[Sub-command}, ${2:ControlID}, ${3:Param4]})" },
+        { "trigger": "GuiControlGet()", "contents": "Mfunc.GuiControlGet(${1:[Sub-command}, ${2:ControlID}, ${3:Param4]})" },
+
+        { "trigger": "Mfunc.IfBetween()", "contents": "Mfunc.IfBetween(${1:var}, ${2:LowerBound}, ${3:UpperBound})" },
+        { "trigger": ".IfBetween()", "contents": "IfBetween(${1:var}, ${2:LowerBound}, ${3:UpperBound})" },
+        { "trigger": "IfBetween()", "contents": "Mfunc.IfBetween(${1:var}, ${2:LowerBound}, ${3:UpperBound})" },
+
+        { "trigger": "Mfunc.IfContains()", "contents": "Mfunc.IfContains(${1:var}, ${2:MatchList})" },
+        { "trigger": ".IfContains()", "contents": "IfContains(${1:var}, ${2:MatchList})" },
+        { "trigger": "IfContains()", "contents": "Mfunc.IfContains(${1:var}, ${2:MatchList})" },
+
+        { "trigger": "Mfunc.IfIn()", "contents": "Mfunc.IfIn(${1:var}, ${2:MatchList})" },
+        { "trigger": ".IfIn()", "contents": "IfIn(${1:var}, ${2:MatchList})" },
+        { "trigger": "IfIn()", "contents": "Mfunc.IfIn(${1:var}, ${2:MatchList})" },
+
+        { "trigger": "Mfunc.IfIs()", "contents": "Mfunc.IfIs(${1:var}, ${2:type})" },
+        { "trigger": ".IfIs()", "contents": "IfIs(${1:var}, ${2:type})" },
+        { "trigger": "IfIs()", "contents": "Mfunc.IfIs(${1:var}, ${2:type})" },
+
+        { "trigger": "Mfunc.IfIsNot()", "contents": "Mfunc.IfIsNot(${1:var}, ${2:type})" },
+        { "trigger": ".IfIsNot()", "contents": "IfIsNot(${1:var}, ${2:type})" },
+        { "trigger": "IfIsNot()", "contents": "Mfunc.IfIsNot(${1:var}, ${2:type})" },
+
+        { "trigger": "Mfunc.IfNotBetween()", "contents": "Mfunc.IfNotBetween(${1:var}, ${2:LowerBound}, ${3:UpperBound})" },
+        { "trigger": ".IfNotBetween()", "contents": "IfNotBetween(${1:var}, ${2:LowerBound}, ${3:UpperBound})" },
+        { "trigger": "IfNotBetween()", "contents": "Mfunc.IfNotBetween(${1:var}, ${2:LowerBound}, ${3:UpperBound})" },
+
+        { "trigger": "Mfunc.IfNotContains()", "contents": "Mfunc.IfNotContains(${1:var}, ${2:MatchList})" },
+        { "trigger": ".IfNotContains()", "contents": "IfNotContains(${1:var}, ${2:MatchList})" },
+        { "trigger": "IfNotContains()", "contents": "Mfunc.IfNotContains(${1:var}, ${2:MatchList})" },
+
+        { "trigger": "Mfunc.IfNotIn()", "contents": "Mfunc.IfNotIn(${1:var}, ${2:MatchList})" },
+        { "trigger": ".IfNotIn()", "contents": "IfNotIn(${1:var}, ${2:MatchList})" },
+        { "trigger": "IfNotIn()", "contents": "Mfunc.IfNotIn(${1:var}, ${2:MatchList})" },
+
+        { "trigger": "Mfunc.ImageSearch()", "contents": "Mfunc.ImageSearch(${1:OutputVarX}, ${2:OutputVarY}, ${3:X1}, ${4:Y1}, ${5:X2}, ${7:Y2}, ${7:ImageFile})" },
+        { "trigger": ".ImageSearch()", "contents": "ImageSearch(${1:OutputVarX}, ${2:OutputVarY}, ${3:X1}, ${4:Y1}, ${5:X2}, ${7:Y2}, ${7:ImageFile})" },
+        { "trigger": "ImageSearch()", "contents": "Mfunc.ImageSearch(${1:OutputVarX}, ${2:OutputVarY}, ${3:X1}, ${4:Y1}, ${5:X2}, ${7:Y2}, ${7:ImageFile})" },
+
+        { "trigger": "Mfunc.IniDelete()", "contents": "Mfunc.IniDelete(${1:Filename}, ${2:Section}${3:[, Key]})" },
+        { "trigger": ".IniDelete()", "contents": "IniDelete(${1:Filename}, ${2:Section}${3:[, Key]})" },
+        { "trigger": "IniDelete()", "contents": "Mfunc.IniDelete(${1:Filename}, ${2:Section}${3:[, Key]})" },
+
+        { "trigger": "Mfunc.IniRead()", "contents": "Mfunc.IniRead(${1:Filename}${2:[, Section}, ${3:Key}, ${4:Default})" },
+        { "trigger": ".IniRead()", "contents": "IniRead(${1:Filename}${2:[, Section}, ${3:Key}, ${4:Default})" },
+        { "trigger": "IniRead()", "contents": "Mfunc.IniRead(${1:Filename}${2:[, Section}, ${3:Key}, ${4:Default})" },
+
+        { "trigger": "Mfunc.IniWrite()", "contents": "Mfunc.IniWrite(${1:Value}, ${2:Filename}, ${3:Section}, ${4:Key})" },
+        { "trigger": ".IniWrite()", "contents": "IniWrite(${1:Value}, ${2:Filename}, ${3:Section}, ${4:Key})" },
+        { "trigger": "IniWrite()", "contents": "Mfunc.IniWrite(${1:Value}, ${2:Filename}, ${3:Section}, ${4:Key})" },
+
+        { "trigger": "Mfunc.IniWrite(Pairs, Filename, Section)", "contents": "Mfunc.IniWrite(${1:Pairs}, ${2:Filename}, ${3:Section})" },
+        { "trigger": ".IniWrite(Pairs, Filename, Section)", "contents": "IniWrite(${1:Pairs}, ${2:Filename}, ${3:Section})" },
+        { "trigger": "IniWrite(Pairs, Filename, Section)", "contents": "Mfunc.IniWrite(${1:Pairs}, ${2:Filename}, ${3:Section})" },
+
+        { "trigger": "Mfunc.Input()", "contents": "Mfunc.Input(${1:[Options}, ${2:EndKeys}, ${3:MatchList]})" },
+        { "trigger": ".Input()", "contents": "Input(${1:[Options}, ${2:EndKeys}, ${3:MatchList]})" },
+        { "trigger": "Input()", "contents": "Mfunc.Input(${1:[Options}, ${2:EndKeys}, ${3:MatchList]})" },
+
+        { "trigger": "Mfunc.InputBox()", "contents": "Mfunc.InputBox(${1:[Title}, ${2:Prompt}, ${3:HIDE}, ${4:Width}, ${5:Height}, ${6:X}, ${7:Y}, ${8:Font}, ${9:Timeout}, ${10:Default]})" },
+        { "trigger": ".InputBox()", "contents": "InputBox(${1:[Title}, ${2:Prompt}, ${3:HIDE}, ${4:Width}, ${5:Height}, ${6:X}, ${7:Y}, ${8:Font}, ${9:Timeout}, ${10:Default]})" },
+        { "trigger": "InputBox()", "contents": "Mfunc.InputBox(${1:[Title}, ${2:Prompt}, ${3:HIDE}, ${4:Width}, ${5:Height}, ${6:X}, ${7:Y}, ${8:Font}, ${9:Timeout}, ${10:Default]})" },
+
+        { "trigger": "Mfunc.IsFloat()", "contents": "Mfunc.IsFloat(${1:num})" },
+        { "trigger": ".IsFloat()", "contents": "IsFloat(${1:num})" },
+        { "trigger": "IsFloat()", "contents": "Mfunc.IsFloat(${1:num})" },
+
+        { "trigger": "Mfunc.IsInteger()", "contents": "Mfunc.IsInteger(${1:num})" },
+        { "trigger": ".IsInteger()", "contents": "IsInteger(${1:num})" },
+        { "trigger": "IsInteger()", "contents": "Mfunc.IsInteger(${1:num})" },
+
+        { "trigger": "Mfunc.IsNumeric()", "contents": "Mfunc.IsNumeric(${1:num})" },
+        { "trigger": ".IsNumeric()", "contents": "IsNumeric(${1:num})" },
+        { "trigger": "IsNumeric()", "contents": "Mfunc.IsNumeric(${1:num})" },
+
+        { "trigger": "Mfunc.MouseGetPos()", "contents": "Mfunc.MouseGetPos(${1:[OutputVarX}, ${2:OutputVarY}, ${3:OutputVarWin}, ${4:OutputVarControl}, ${5:1|2|3]})" },
+        { "trigger": ".MouseGetPos()", "contents": "MouseGetPos(${1:[OutputVarX}, ${2:OutputVarY}, ${3:OutputVarWin}, ${4:OutputVarControl}, ${5:1|2|3]})" },
+        { "trigger": "MouseGetPos()", "contents": "Mfunc.MouseGetPos(${1:[OutputVarX}, ${2:OutputVarY}, ${3:OutputVarWin}, ${4:OutputVarControl}, ${5:1|2|3]})" },
+
+        { "trigger": "Mfunc.PixelGetColor()", "contents": "Mfunc.PixelGetColor(${1:X}, ${2:Y}${3:[, Alt|Slow|RGB]})" },
+        { "trigger": ".PixelGetColor()", "contents": "PixelGetColor(${1:X}, ${2:Y}${3:[, Alt|Slow|RGB]})" },
+        { "trigger": "PixelGetColor()", "contents": "Mfunc.PixelGetColor(${1:X}, ${2:Y}${3:[, Alt|Slow|RGB]})" },
+
+        { "trigger": "Mfunc.PixelSearch()", "contents": "Mfunc.PixelSearch(${1:OutputVarX}, ${2:OutputVarY}, ${3:X1}, ${4:Y1}, ${5:X2}, ${6:Y2}, ${7:ColorID }${8:[, Variation}, ${9:Fast|RGB]})" },
+        { "trigger": ".PixelSearch()", "contents": "PixelSearch(${1:OutputVarX}, ${2:OutputVarY}, ${3:X1}, ${4:Y1}, ${5:X2}, ${6:Y2}, ${7:ColorID }${8:[, Variation}, ${9:Fast|RGB]})" },
+        { "trigger": "PixelSearch()", "contents": "Mfunc.PixelSearch(${1:OutputVarX}, ${2:OutputVarY}, ${3:X1}, ${4:Y1}, ${5:X2}, ${6:Y2}, ${7:ColorID }${8:[, Variation}, ${9:Fast|RGB]})" },
+
+        { "trigger": "Mfunc.Process()", "contents": "Mfunc.Process(${1:Cmd}${2:[, PID|Name}, ${3:Param3]})" },
+        { "trigger": ".Process()", "contents": "Process(${1:Cmd}${2:[, PID|Name}, ${3:Param3]})" },
+        { "trigger": "Process()", "contents": "Mfunc.Process(${1:Cmd}${2:[, PID|Name}, ${3:Param3]})" },
+
+        { "trigger": "Mfunc.Random([min,max])", "contents": "Mfunc.Random(${1:[Min}, ${2:Max]})" },
+        { "trigger": ".Random([min,max])", "contents": "Random(${1:[Min}, ${2:Max]})" },
+        { "trigger": "Random([min,max])", "contents": "Mfunc.Random(${1:[Min}, ${2:Max]})" },
+
+        { "trigger": "Mfunc.Random(,NewSeed)", "contents": "Mfunc.Random(, ${1:NewSeed})" },
+        { "trigger": ".Random(,NewSeed)", "contents": "Random(, ${1:NewSeed})" },
+        { "trigger": "Random(,NewSeed)", "contents": "Mfunc.Random(, ${1:NewSeed})" },
+
+        { "trigger": "Mfunc.RegRead()", "contents": "Mfunc.RegRead(${1:RootKey}, ${2:SubKey}${3:[, ValueName]})" },
+        { "trigger": ".RegRead()", "contents": "RegRead(${1:RootKey}, ${2:SubKey}${3:[, ValueName]})" },
+        { "trigger": "RegRead()", "contents": "Mfunc.RegRead(${1:RootKey}, ${2:SubKey}${3:[, ValueName]})" },
+
+        { "trigger": "Mfunc.RegWrite()", "contents": "Mfunc.RegWrite(${1:ValueType}, ${2:RootKey}, ${3:SubKey}${4:[, ValueName}, ${5:Value]})" },
+        { "trigger": ".RegWrite()", "contents": "RegWrite(${1:ValueType}, ${2:RootKey}, ${3:SubKey}${4:[, ValueName}, ${5:Value]})" },
+        { "trigger": "RegWrite()", "contents": "Mfunc.RegWrite(${1:ValueType}, ${2:RootKey}, ${3:SubKey}${4:[, ValueName}, ${5:Value]})" },
+
+        { "trigger": "Mfunc.Run()", "contents": "Mfunc.Run(${1:Target}${2:[, WorkingDir}, ${3:Max|Min|Hide|UseErrorLevel]})" },
+        { "trigger": ".Run()", "contents": "Run(${1:Target}${2:[, WorkingDir}, ${3:Max|Min|Hide|UseErrorLevel]})" },
+        { "trigger": "Run()", "contents": "Mfunc.Run(${1:Target}${2:[, WorkingDir}, ${3:Max|Min|Hide|UseErrorLevel]})" },
+
+        { "trigger": "Mfunc.RunWait()", "contents": "Mfunc.RunWait(${1:Target}${2:[, WorkingDir}, ${3:Max|Min|Hide|UseErrorLevel]})" },
+        { "trigger": ".RunWait()", "contents": "RunWait(${1:Target}${2:[, WorkingDir}, ${3:Max|Min|Hide|UseErrorLevel]})" },
+        { "trigger": "RunWait()", "contents": "Mfunc.RunWait(${1:Target}${2:[, WorkingDir}, ${3:Max|Min|Hide|UseErrorLevel]})" },
+
+        { "trigger": "Mfunc.SecondsPassed()", "contents": "Mfunc.SecondsPassed(${1:StartTicks}${2:[, EndTicks]})" },
+        { "trigger": ".SecondsPassed()", "contents": "SecondsPassed(${1:StartTicks}${2:[, EndTicks]})" },
+        { "trigger": "SecondsPassed()", "contents": "Mfunc.SecondsPassed(${1:StartTicks}${2:[, EndTicks]})" },
+
+        { "trigger": "Mfunc.SetFormat()", "contents": "Mfunc.SetFormat(${1:NumberType = MfSetFormatNumberType.Instance.Integer|IntegerFast|Float|FloatFast}, ${2:Format})" },
+        { "trigger": ".SetFormat()", "contents": "SetFormat(${1:NumberType = MfSetFormatNumberType.Instance.Integer|IntegerFast|Float|FloatFast}, ${2:Format})" },
+        { "trigger": "SetFormat()", "contents": "Mfunc.SetFormat(${1:NumberType = MfSetFormatNumberType.Instance.Integer|IntegerFast|Float|FloatFast}, ${2:Format})" },
+
+        { "trigger": "Mfunc.SoundGet()", "contents": "Mfunc.SoundGet(${1:[ComponentType}, ${2:ControlType}, ${3:DeviceNumber]})" },
+        { "trigger": ".SoundGet()", "contents": "SoundGet(${1:[ComponentType}, ${2:ControlType}, ${3:DeviceNumber]})" },
+        { "trigger": "SoundGet()", "contents": "Mfunc.SoundGet(${1:[ComponentType}, ${2:ControlType}, ${3:DeviceNumber]})" },
+
+        { "trigger": "Mfunc.SoundGetWaveVolume()", "contents": "Mfunc.SoundGetWaveVolume(${1:[DeviceNumber]})" },
+        { "trigger": ".SoundGetWaveVolume()", "contents": "SoundGetWaveVolume(${1:[DeviceNumber]})" },
+        { "trigger": "SoundGetWaveVolume()", "contents": "Mfunc.SoundGetWaveVolume(${1:[DeviceNumber]})" },
+
+ 		{ "trigger": "Mfunc.SplitPath()", "contents": "Mfunc.SplitPath(${1:Input}${2:[, OutFileName}, ${3:OutDir}, ${4:OutExtension}, ${5:OutNameNoExt}, ${6:OutDrive]})" },
+ 		{ "trigger": ".SplitPath()", "contents": "SplitPath(${1:Input}${2:[, OutFileName}, ${3:OutDir}, ${4:OutExtension}, ${5:OutNameNoExt}, ${6:OutDrive]})" },
+ 		{ "trigger": "SplitPath()", "contents": "Mfunc.SplitPath(${1:Input}${2:[, OutFileName}, ${3:OutDir}, ${4:OutExtension}, ${5:OutNameNoExt}, ${6:OutDrive]})" },
+
+ 		{ "trigger": "Mfunc.StatusBarGetText()", "contents": "Mfunc.StatusBarGetText(${1:[Part#}, ${2:WinTitle}, ${3:WinText}, ${4:ExcludeTitle}, ${5:ExcludeText]})" },
+ 		{ "trigger": ".StatusBarGetText()", "contents": "StatusBarGetText(${1:[Part#}, ${2:WinTitle}, ${3:WinText}, ${4:ExcludeTitle}, ${5:ExcludeText]})" },
+ 		{ "trigger": "StatusBarGetText()", "contents": "Mfunc.StatusBarGetText(${1:[Part#}, ${2:WinTitle}, ${3:WinText}, ${4:ExcludeTitle}, ${5:ExcludeText]})" },
+
+ 		{ "trigger": "Mfunc.StringGetPos()", "contents": "Mfunc.StringGetPos(${1:Input}, ${2:SearchText}${3:[, L#|R#}, ${4:Offset]})" },
+ 		{ "trigger": ".StringGetPos()", "contents": "StringGetPos(${1:Input}, ${2:SearchText}${3:[, L#|R#}, ${4:Offset]})" },
+ 		{ "trigger": "StringGetPos()", "contents": "Mfunc.StringGetPos(${1:Input}, ${2:SearchText}${3:[, L#|R#}, ${4:Offset]})" },
+
+ 		{ "trigger": "Mfunc.StringLeft()", "contents": "Mfunc.StringLeft(${1:Input}, ${2:Count})" },
+ 		{ "trigger": ".StringLeft()", "contents": "StringLeft(${1:Input}, ${2:Count})" },	
+ 		{ "trigger": "StringLeft()", "contents": "Mfunc.StringLeft(${1:Input}, ${2:Count})" },
+
+ 		{ "trigger": "Mfunc.StringLen()", "contents": "Mfunc.StringLen(${1:Input})" },
+ 		{ "trigger": ".StringLen()", "contents": ".StringLen(${1:Input})" },
+ 		{ "trigger": "StringLen()", "contents": "Mfunc.StringLen(${1:Input})" },
+
+ 		{ "trigger": "Mfunc.StringLower()", "contents": "Mfunc.StringLower(${1:Input}${2:[, \"T\"]})" },
+ 		{ "trigger": ".StringLower()", "contents": "StringLower(${1:Input}${2:[, \"T\"]})" },
+ 		{ "trigger": "StringLower()", "contents": "Mfunc.StringLower(${1:Input}${2:[, \"T\"]})" },
+
+ 		{ "trigger": "Mfunc.StringMid()", "contents": "Mfunc.StringMid(${1:Input}, ${2:StartChar}${3:[, Count}, ${4:L]})" },
+ 		{ "trigger": ".StringMid()", "contents": "StringMid(${1:Input}, ${2:StartChar}${3:[, Count}, ${4:L]})" },
+ 		{ "trigger": "StringMid()", "contents": "Mfunc.StringMid(${1:Input}, ${2:StartChar}${3:[, Count}, ${4:L]})" },
+
+ 		{ "trigger": "Mfunc.StringReplace()", "contents": "Mfunc.StringReplace(${1:Input}, ${2:SearchText}${3:[, ReplaceText}, ${4:ReplaceAll? = \"ALL\"]})" },
+ 		{ "trigger": ".StringReplace()", "contents": "StringReplace(${1:Input}, ${2:SearchText}${3:[, ReplaceText}, ${4:ReplaceAll? = \"ALL\"]})" },
+ 		{ "trigger": "StringReplace()", "contents": "Mfunc.StringReplace(${1:Input}, ${2:SearchText}${3:[, ReplaceText}, ${4:ReplaceAll? = \"ALL\"]})" },
+
+ 		{ "trigger": "Mfunc.StringRight()", "contents": "Mfunc.StringRight(${1:Input}, ${2:Count})" },
+ 		{ "trigger": ".StringRight()", "contents": "StringRight(${1:Input}, ${2:Count})" },
+ 		{ "trigger": "StringRight()", "contents": "Mfunc.StringRight(${1:Input}, ${2:Count})" },
+
+ 		{ "trigger": "Mfunc.StringSplit()", "contents": "Mfunc.StringSplit(${1:Input}${2:[, Delimiters}, ${3:OmitChars]})" },
+ 		{ "trigger": ".StringSplit()", "contents": "StringSplit(${1:Input}${2:[, Delimiters}, ${3:OmitChars]})" },
+ 		{ "trigger": "StringSplit()", "contents": "Mfunc.StringSplit(${1:Input}${2:[, Delimiters}, ${3:OmitChars]})" },
+
+ 		{ "trigger": "Mfunc.StringTrimLeft()", "contents": "Mfunc.StringTrimLeft(${1:Input}, ${2:Count})" },
+ 		{ "trigger": ".StringTrimLeft()", "contents": "StringTrimLeft(${1:Input}, ${2:Count})" },
+ 		{ "trigger": "StringTrimLeft()", "contents": "Mfunc.StringTrimLeft(${1:Input}, ${2:Count})" },
+
+ 		{ "trigger": "Mfunc.StringTrimRight()", "contents": "Mfunc.StringTrimRight(${1:Input}, ${2:Count})" },
+ 		{ "trigger": ".StringTrimRight()", "contents": "StringTrimRight(${1:Input}, ${2:Count})" },
+ 		{ "trigger": "StringTrimRight()", "contents": "Mfunc.StringTrimRight(${1:Input}, ${2:Count})" },
+
+ 		{ "trigger": "Mfunc.StringUpper()", "contents": "Mfunc.StringUpper(${1:Input}${2:[, \"T\"]})" },
+ 		{ "trigger": ".StringUpper()", "contents": "StringUpper(${1:Input}${2:[, \"T\"]})" },
+ 		{ "trigger": "StringUpper()", "contents": "Mfunc.StringUpper(${1:Input}${2:[, \"T\"]})" },
+
+ 		{ "trigger": "Mfunc.SysGet()", "contents": "Mfunc.SysGet(${1:Sub-command}${2:[, Param3]})" },
+ 		{ "trigger": ".SysGet()", "contents": "SysGet(${1:Sub-command}${2:[, Param3]})" },
+ 		{ "trigger": "SysGet()", "contents": "Mfunc.SysGet(${1:Sub-command}${2:[, Param3]})" },
+
+ 		{ "trigger": "Mfunc.Transform()", "contents": "Mfunc.Transform(${1:Cmd}, ${2:Value1}${3:[, Value2]})" },
+ 		{ "trigger": ".Transform()", "contents": "Transform(${1:Cmd}, ${2:Value1}${3:[, Value2]})" },
+ 		{ "trigger": "Transform()", "contents": "Mfunc.Transform(${1:Cmd}, ${2:Value1}${3:[, Value2]})" },
+
+ 		{ "trigger": "Mfunc.WinActivate()", "contents": "Mfunc.WinActivate(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": ".WinActivate()", "contents": "WinActivate(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": "WinActivate()", "contents": "Mfunc.WinActivate(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+
+ 		{ "trigger": "Mfunc.WinGetActiveTitle()", "contents": "Mfunc.WinGetActiveTitle()" },
+ 		{ "trigger": ".WinGetActiveTitle()", "contents": "WinGetActiveTitle()" },
+ 		{ "trigger": "WinGetActiveTitle()", "contents": "Mfunc.WinGetActiveTitle()" },
+
+ 		{ "trigger": "Mfunc.WinGetClass()", "contents": "Mfunc.WinGetClass(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": ".WinGetClass()", "contents": "WinGetClass(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": "WinGetClass()", "contents": "Mfunc.WinGetClass(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+
+ 		{ "trigger": "Mfunc.WinGetText()", "contents": "Mfunc.WinGetText(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": ".WinGetText()", "contents": "WinGetText(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": "WinGetText()", "contents": "Mfunc.WinGetText(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+
+ 		{ "trigger": "Mfunc.WinGetTitle()", "contents": "Mfunc.WinGetTitle(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": ".WinGetTitle()", "contents": "WinGetTitle(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" },
+ 		{ "trigger": "WinGetTitle()", "contents": "Mfunc.WinGetTitle(${1:[WinTitle}, ${2:WinText}, ${3:ExcludeTitle}, ${4:ExcludeText]})" }
+	]          
+}

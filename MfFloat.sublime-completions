@@ -1,0 +1,8 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfFloat()", "contents": "MfFloat(${1:[flt]})" },
+        { "trigger": "MfFloat(flt, returnAsObj, readonly, format)", "contents": "MfFloat(${1:[flt}, ${2:returnAsObj=false}, ${3:readonly=false}, ${4:format]})" },
+        { "trigger": "MfFloat.GetValue()", "contents": "MfFloat.GetValue(${1:obj[}, ${2:default}, ${3:AllowAny=false]})" }
+]           
+}

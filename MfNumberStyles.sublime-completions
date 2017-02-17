@@ -1,0 +1,22 @@
+{
+	"scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfNumberStyles.AllowCurrencySymbol", "contents": "MfNumberStyles.Instance.AllowCurrencySymbol" },
+		{ "trigger": "MfNumberStyles.AllowDecimalPoint", "contents": "MfNumberStyles.Instance.AllowDecimalPoint" },
+		{ "trigger": "MfNumberStyles.AllowExponent", "contents": "MfNumberStyles.Instance.AllowExponent" },
+		{ "trigger": "MfNumberStyles.AllowHexSpecifier", "contents": "MfNumberStyles.Instance.AllowHexSpecifier" },
+		{ "trigger": "MfNumberStyles.AllowLeadingSign", "contents": "MfNumberStyles.Instance.AllowLeadingSign" },
+		{ "trigger": "MfNumberStyles.AllowLeadingWhite", "contents": "MfNumberStyles.Instance.AllowLeadingWhite" },
+		{ "trigger": "MfNumberStyles.AllowParentheses", "contents": "MfNumberStyles.Instance.AllowParentheses" },
+		{ "trigger": "MfNumberStyles.AllowThousands", "contents": "MfNumberStyles.Instance.AllowThousands" },
+		{ "trigger": "MfNumberStyles.AllowTrailingSign", "contents": "MfNumberStyles.Instance.AllowTrailingSign" },
+		{ "trigger": "MfNumberStyles.AllowTrailingWhite", "contents": "MfNumberStyles.Instance.AllowTrailingWhite" },
+		{ "trigger": "MfNumberStyles.Any", "contents": "MfNumberStyles.Instance.Any" },
+		{ "trigger": "MfNumberStyles.Currency", "contents": "MfNumberStyles.Instance.Currency" },
+		{ "trigger": "MfNumberStyles.Float", "contents": "MfNumberStyles.Instance.Float" },
+		{ "trigger": "MfNumberStyles.HexNumber", "contents": "MfNumberStyles.Instance.HexNumber" },
+		{ "trigger": "MfNumberStyles.Integer", "contents": "MfNumberStyles.Instance.Integer" },
+		{ "trigger": "MfNumberStyles.None", "contents": "MfNumberStyles.Instance.None" },
+		{ "trigger": "MfNumberStyles.Number", "contents": "MfNumberStyles.Instance.Number" }
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfStringSplitOptions.None", "contents": "MfStringSplitOptions.Instance.None" },
+		{ "trigger": "MfStringSplitOptions.RemoveEmptyEntries", "contents": "MfStringSplitOptions.Instance.RemoveEmptyEntries" }
+	]
+}

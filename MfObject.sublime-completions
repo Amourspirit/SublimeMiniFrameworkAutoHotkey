@@ -1,0 +1,23 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfObject.IsMfObject()", "contents": "MfObject.IsMfObject(${1:obj})" },
+		{ "trigger": "MfObject.IsObjInstance()", "contents": "MfObject.IsObjInstance(${1:obj[,} ${2:objType]})" },
+		"MfObject.IsInstance()",
+		{ "trigger": "MfObject.ReferenceEquals()", "contents": "MfObject.ReferenceEquals(${1:objA}, ${2:objB})" },
+
+		{ "trigger": ".AddAttribute()", "contents": "AddAttribute(${1:attrib})" },
+		{ "trigger": ".CompareTo()", "contents": "CompareTo(${1:obj})" },
+		{ "trigger": ".Equals()", "contents": ".Equals(${1:objA[}, ${2:objB]})" },
+		{ "trigger": ".GetAttribute()", "contents": "GetAttribute(${1:index})" },
+		{ "trigger": ".GetAttributes()", "contents": "GetAttributes()" },
+		{ "trigger": ".GetHashCode()", "contents": "GetHashCode()" },
+		{ "trigger": ".GetIndexOfAttribute()", "contents": "GetIndexOfAttribute(${1:attrib})" },
+		{ "trigger": ".HasAttribute()", "contents": "HasAttribute(${1:attrib})" },
+		{ "trigger": ".GetType()", "contents": "GetType()" },
+		{ "trigger": ".InheritancePath()", "contents": "InheritancePath()" },
+		{ "trigger": ".Is()", "contents": "Is(${1:type})" },
+		{ "trigger": ".MemberwiseClone()", "contents": "MemberwiseClone()" },
+		{ "trigger": ".ToString()", "contents": "ToString()" }
+	]           
+}

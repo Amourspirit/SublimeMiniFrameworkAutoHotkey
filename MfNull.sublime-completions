@@ -1,0 +1,12 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfNull.Null", "contents": "MfNull.Null" },
+        { "trigger": "MfNull.Value", "contents": "MfNull.Null.Value" },
+        { "trigger": "MfNull.IsNull()", "contents": "MfNull.IsNull(${1:obj})" },
+        { "trigger": "MfNull.GetObjOrNull()", "contents": "MfNull.GetObjOrNull(${1:obj})" },
+
+        { "trigger": ".IsNull()", "contents": "IsNull(${1:obj})" },
+        { "trigger": "IsNull()", "contents": "MfNull.IsNull(${1:obj})" }
+	]           
+}

@@ -1,0 +1,9 @@
+{
+	"scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfDigitShapes.Context", "contents": "MfDigitShapes.Instance.Context" },
+		{ "trigger": "MfDigitShapes.NativeNational", "contents": "MfDigitShapes.Instance.NativeNational" },
+		{ "trigger": "MfDigitShapes.None", "contents": "MfDigitShapes.Instance.None" }
+
+]
+}

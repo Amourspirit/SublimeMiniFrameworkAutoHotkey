@@ -1,0 +1,7 @@
+{
+	"scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfStringComparison.Ordinal", "contents": "MfStringComparison.Instance.Ordinal" },
+		{ "trigger": "MfStringComparison.OrdinalIgnoreCase", "contents": "MfStringComparison.Instance.OrdinalIgnoreCase" }
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "scope" : "source.ahk",
+  "completions" : [
+    { "trigger": "MfEnum.Parse()", "contents": "MfEnum.Parse(${1:enumType}, ${2:value}${3:[, ignoreCase]})" },
+    { "trigger": "MfEnum.ParseItem()", "contents": "MfEnum.ParseItem(${1:enumType}, ${2:value}${3:[, ignoreCase]})" },
+    { "trigger": "MfEnum.TryParse()", "contents": "MfEnum.TryParse(${1:value}, ${2:outEnum}${3:[, ignoreCase]})" },
+    { "trigger": "MfEnum.TryParseItem()", "contents": "MfEnum.TryParseItem(${1:enumType}, ${2:value}, ${3:outEnum}${4:[, ignoreCase]})" },
+    { "trigger": "MfEnum.Equals()", "contents": "MfEnum.Equals(${1:objA}, ${2:objB})" },
+    { "trigger": "MfEnum.ToObject()", "contents": "MfEnum.ToObject(${1:enumType}, ${2:value})" }
+  ]
+}

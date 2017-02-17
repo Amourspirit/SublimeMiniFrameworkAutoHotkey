@@ -1,0 +1,25 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfTimeSpan()", "contents": "MfTimeSpan(${1:[ts|ticks = 0]})" },
+        { "trigger": "MfTimeSpan(hours,minutes,seconds)", "contents": "MfTimeSpan(${1:hours}, ${2:minutes}, ${3:seconds})" },
+        { "trigger": "MfTimeSpan(days,hours,minutes)", "contents": "MfTimeSpan(${1:days}, ${2:hours}, ${3:minutes}, ${4:seconds}${5:[, milliseconds]})" },
+        { "trigger": "MfTimeSpan.Equals()", "contents": "MfTimeSpan.Equals(${1:objA}, ${2:objB})" },
+        { "trigger": "MfTimeSpan.FromDays()", "contents": "MfTimeSpan.FromDays(${1:value})" },
+        { "trigger": "MfTimeSpan.FromHours()", "contents": "MfTimeSpan.FromHours(${1:value})" },
+        { "trigger": "MfTimeSpan.FromMilliseconds()", "contents": "MfTimeSpan.FromMilliseconds(${1:value})" },
+        { "trigger": "MfTimeSpan.FromMinutes()", "contents": "MfTimeSpan.FromMinutes(${1:value})" },
+        { "trigger": "MfTimeSpan.FromTicks()", "contents": "MfTimeSpan.FromTicks(${1:value})" },
+        { "trigger": "MfTimeSpan.Parse()", "contents": "MfTimeSpan.Parse(${1:str})" },
+        { "trigger": "MfTimeSpan.TryParse()", "contents": "MfTimeSpan.TryParse(${1:Byref out}, ${2:s}" },
+
+        "MfTimeSpan.MaxValue",
+        "MfTimeSpan.MinValue",
+        "MfTimeSpan.TicksPerDay",
+        "MfTimeSpan.TicksPerHour",
+        "MfTimeSpan.TicksPerMillisecond",
+        "MfTimeSpan.TicksPerMinute",
+        "MfTimeSpan.TicksPerSecond",
+        "MfTimeSpan.Zero"
+]           
+}

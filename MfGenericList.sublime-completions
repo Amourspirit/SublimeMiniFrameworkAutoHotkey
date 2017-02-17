@@ -1,0 +1,6 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+	        { "trigger": "MfGenericList()", "contents": "MfGenericList(${1:genericType})" }
+	]           
+}

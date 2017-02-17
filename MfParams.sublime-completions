@@ -1,0 +1,19 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfParams()", "contents": "MfParams(${1:tList*})" },
+        { "trigger": "MfParams.GetArgCount()", "contents": "MfParams.GetArgCount(${1:args*})" },
+        { "trigger": "MfParams.B()", "contents": "MfParams.B(${1:value})" },
+        { "trigger": "MfParams.C()", "contents": "MfParams.C(${1:value})" },
+        { "trigger": "MfParams.F()", "contents": "MfParams.F(${1:value})" },
+        { "trigger": "MfParams.I()", "contents": "MfParams.I(${1:value})" },
+        { "trigger": "MfParams.S()", "contents": "MfParams.S(${1:value})" },
+        { "trigger": ".AddBool()", "contents": "AddBool(${1:value})" },
+        { "trigger": ".AddByte()", "contents": "AddByte(${1:value})" },
+        { "trigger": ".AddChar()", "contents": "AddChar(${1:value})" },
+        { "trigger": ".AddFloat()", "contents": "AddFloat(${1:value})" },
+        { "trigger": ".AddInteger()", "contents": "AddInteger(${1:value})" },
+        { "trigger": ".AddString()", "contents": "AddString(${1:value})" },
+        { "trigger": ".AddRange(tList*)", "contents": "AddRange(${1:tList*})" }
+]           
+}

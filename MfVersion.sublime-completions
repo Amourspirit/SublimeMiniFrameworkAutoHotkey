@@ -1,0 +1,8 @@
+{
+    "scope": "source.ahk",
+	"completions": [
+        { "trigger": "MfVersion()", "contents": "MfVersion(${1:[\"version\"]})" },
+        { "trigger": "MfVersion(major, minor)", "contents": "MfVersion(${1:major}, ${2:minor}${3:[, build}, ${4:revision]})" },
+        { "trigger": "MfVersion.Parse()", "contents": "MfVersion.Parse(${1:input})" }
+]           
+}

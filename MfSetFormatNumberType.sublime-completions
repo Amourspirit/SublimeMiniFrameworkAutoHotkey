@@ -1,0 +1,9 @@
+{
+	"scope": "source.ahk",
+	"completions": [
+		{ "trigger": "MfSetFormatNumberType.Integer", "contents": "MfSetFormatNumberType.Instance.Integer" },
+		{ "trigger": "MfSetFormatNumberType.IntegerFast", "contents": "MfSetFormatNumberType.Instance.IntegerFast" },
+		{ "trigger": "MfSetFormatNumberType.Float", "contents": "MfSetFormatNumberType.Instance.Float" },
+		{ "trigger": "MfSetFormatNumberType.FloatFast", "contents": "MfSetFormatNumberType.Instance.FloatFast" }
+	]
+}

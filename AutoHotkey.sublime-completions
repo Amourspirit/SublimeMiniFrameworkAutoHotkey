@@ -1024,5 +1024,5 @@
             { "trigger": "DPIScale", "contents": "DPIScale" },
             { "trigger": "Hwnd", "contents": "Hwnd" },
             { "trigger": "Parent", "contents": "Parent" }
-      ]
+]
 }

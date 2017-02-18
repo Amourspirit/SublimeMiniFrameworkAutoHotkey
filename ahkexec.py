@@ -4,7 +4,7 @@ import os
 import re
 from ctypes import *
 
-# The ahkbuild command is called as target by AutoHotkey.sublime-build
+# The ahkbuild command is called as target by AutoHotkey-MF.sublime-build
 class ahkrun(sublime_plugin.WindowCommand):
 	def run(self):
 		filepath = self.window.active_view().file_name()
@@ -46,8 +46,8 @@ class ahkcompile(sublime_plugin.WindowCommand):
 		cmd = [Ahk2ExePath, "/in", filepath]
 		self.window.run_command("exec", {"cmd": cmd})
 
-# http://www.autohotkey.com/board/topic/23575-how-to-run-dynamic-script-through-a-pipe/
-# The ahkrunpiped command will run the code in the current buffer by piping it as a temporary string to the AutoHotkey.exe executable. This enables you to run and test AutoHotkey scripts without needing to save them to a file first.
+# http://www.AutoHotkey-MF.com/board/topic/23575-how-to-run-dynamic-script-through-a-pipe/
+# The ahkrunpiped command will run the code in the current buffer by piping it as a temporary string to the AutoHotkey-MF.exe executable. This enables you to run and test AutoHotkey scripts without needing to save them to a file first.
 class ahkrunpiped(sublime_plugin.TextCommand):
 	def get_code(self):
 		# check if there's a selection
@@ -138,7 +138,7 @@ class ahkrunpipedCommand(ahkrunpiped):
 		# Peform case-insensitive search
 		re.I
 		# Continue only if syntax used is AutoHotkey or Plain text
-		if not re.search("(AutoHotkey|AHK|Plain text)", self.view.settings().get('syntax')):
+		if not re.search("(AutoHotkey-MF|AutoHotkey|AHK|Plain text)", self.view.settings().get('syntax')):
 			print("ahkrunpiped[cancelled] - Not an AHK code")
 			return False
 

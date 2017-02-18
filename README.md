@@ -2,7 +2,7 @@
 AutoHotkey Mini-Framework AHK language package for SublimeText including syntax highlighting, Mini-Framework Class highlighting, Mini-Framework Class auto-completions, comments toggling, auto-completions, build system definitions, commands for ahkrun, ahkcompile, ahkrunpiped.
 
 ## Package Installation
-* Manual method: [Download Package](https://github.com/Amourspirit/SublimeMiniFrameworkAutoHotkey/raw/master/package/AutoHotkey-MF.sublime-package") from github. Copy the file to [Sublime_Data_Dir](http://docs.sublimetext.info/en/latest/basic_concepts.html#the-data-directory)\Installed Packages
+* Manual method: [Download Package](https://github.com/Amourspirit/SublimeMiniFrameworkAutoHotkey/raw/master/package/AutoHotkey-MF.sublime-package) from github. Copy the file to [Sublime_Data_Dir](http://docs.sublimetext.info/en/latest/basic_concepts.html#the-data-directory)\Installed Packages
 
 
 ## Key Bindings
